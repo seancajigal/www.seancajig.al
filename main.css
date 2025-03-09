@@ -1,0 +1,62 @@
+html * {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 0;
+    height: 99vh;
+    justify-content:space-around;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+header {
+    font-size: 36px;
+}
+
+nav * {
+    display:block;
+    padding: 0;
+    margin: 0;
+}
+
+nav * * {
+    display:inline-block;
+    font-size: 36px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('CJG_6400.jpg') no-repeat center center/cover;
+    filter: blur(8px);
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.66); /* Black tint */
+    z-index: -1;
+}
+
+
+.inter-body1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }

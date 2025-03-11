@@ -1,3 +1,3 @@
 # www.seancajig.al
 
-bruh, this is not working...
+Simple, but scuffed, webpage for the seancajig.al root domain. 
